@@ -1,3 +1,3 @@
 language: d
 
-script:./waf configure test
+script: ./waf configure test
