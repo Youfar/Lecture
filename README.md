@@ -5,8 +5,7 @@
 GNU GPL v3
 
 # Install
-./waf configure
-./waf build
+./waf configure build
 
 # Test
-./waf test
+./waf configure test
