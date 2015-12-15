@@ -1,3 +1,5 @@
 *~
 *.o
 /build
+/.lock-waf_darwin_build
+/.waf-*
