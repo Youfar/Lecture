@@ -12,7 +12,7 @@ GNU GPL v3
 
 ### Usage
 Example
-``bash
+```bash
 ./multiplicationTable 3 3
 1 2 3 
 2 4 6 
