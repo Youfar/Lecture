@@ -1,17 +1,18 @@
 # Lecture
 情報生命解析プログラミング演習I
 
-## Lisence
+### Lisence
 GNU GPL v3
 
-## Install
+### Install
 ./waf configure build
 
-## Test
+### Test
 ./waf configure test
 
-## Usage
-### Example
+### Usage
+Example
+``bash
 ./multiplicationTable 3 3
 1 2 3 
 2 4 6 
@@ -21,3 +22,4 @@ GNU GPL v3
 2 3 4 
 3 4 5 
 4 5 6 
+```
