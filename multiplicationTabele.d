@@ -25,13 +25,18 @@ version (unittest) {}
      auto x = args[1].to!int;
      auto y = args[2].to!int;
 
-     if (x > 0 || y > 0) {
+     if (x < 1 || y < 1) {
        stderr.writeln("Error: Argumants must be positive.");
      }
 
      auto table = createTable(x, y ,add);
 
-     writeln(table);
+     foreach (row; table) {
+       foreach (elem; row) {
+	 write(elem, " ");
+       }
+       writeln;
+     }
   }
  }
 
@@ -62,4 +67,7 @@ unittest
 
   assert (createTable(x, y, false) == [[1, 2, 3], [2, 4, 6]], 
 	  createTable(x, y, false).to!string);
+
+  assert (createTable(x, y, true) == [[2, 3, 4], [3, 4, 5]], 
+	  createTable(x, y, true).to!string);
 }
