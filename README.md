@@ -1,5 +1,5 @@
 # Lecture
-情報生命解析プログラミング演習I
+情報生命解析プログラミング演習I (group work)
 
 ### Lisence
 GNU GPL v3
